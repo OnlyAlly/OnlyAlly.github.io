@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+      function showText() {
+        var hidden = document.getElementsByClassName("hiddenDiv");
+        if(hidden[0].offsetWidth > 0 && hidden[0].offsetHeight > 0) {
+            hidden[0].style.visibility = "visible";
+        }
+    }
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Birthday Message for You</title>
+    <iframe width="1" height="1"
+src="https://www.youtube.com/embed/CZG8Ona7yDs?autoplay=1">
+</iframe>
+  </head>
+  <body>
+    <div class="preload">
+      <img class="airplane" src="planeride.png" alt="airplane" onclick="showText(); onYouTubePlayerAPIReady();"/>
+      <h3>✧･ﾟ: *✧･ﾟ:*Happy Birthday Michael!*:･ﾟ✧*:･ﾟ✧</h3>
+      <h4>  It is just PLANE CRAZY that you're finally 23 :3 </h4>
+      <img src="cloud.png" alt="cloud1" class="cloud1" />
+      <img src="cloud.png" alt="cloud2" class="cloud2" />
+      <img src="cloud.png" alt="cloud3" class="cloud3" />
+      <div class="hiddenDiv">
+        <p style = "text-align:center">
+          <b>LAND HERE: 3444 W Columbus Dr Tampa, FL 33607-1822</b>
+          <br>
+          <b>"GATE NUMBER": 683922</b>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
